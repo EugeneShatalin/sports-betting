@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/sports-betting/static/css/main.b591c6f3.css",
+    "main.js": "/sports-betting/static/js/main.4115fcd0.js",
+    "index.html": "/sports-betting/index.html",
+    "main.b591c6f3.css.map": "/sports-betting/static/css/main.b591c6f3.css.map",
+    "main.4115fcd0.js.map": "/sports-betting/static/js/main.4115fcd0.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b591c6f3.css",
+    "static/js/main.4115fcd0.js"
+  ]
+}
