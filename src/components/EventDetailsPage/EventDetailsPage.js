@@ -41,7 +41,7 @@ function EventDetailsPage() {
         <div className={styles.event}>
             <p className={styles.p}>Команда хозяев поля: <span>{elem.firstTeamName}</span></p>
             <p className={styles.p}>Команда гостей: <span>{elem.secondTeamName}</span></p>
-            <p className={styles.p}>Дата события: <span>{elem.secondTeamName}</span></p>
+            <p className={styles.p}>Дата события: <span>{elem.eventDate}</span></p>
 
             <p className={styles.coef}>Выберите коэффициент:</p>
             <div className={styles.coef__item}>
