@@ -52,8 +52,7 @@ const dateStore = createSlice({
             state.message = false
         },
         addMessageText(state, action) {
-            state.messageText = action.payload
-            console.log('addMessageText')
+            state.messageText = action.payload            
         },
     }
 })

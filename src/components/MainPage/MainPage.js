@@ -7,16 +7,15 @@ import {useEffect, useLayoutEffect} from "react";
 function MainPage() {
     const eventList = useSelector(state => state.date.eventList);
     const message = useSelector(state => state.date.message);
-    const messageText = useSelector(state => state.date.messageText);
-    console.log(useSelector(state => state.date.messageText));
+    const messageText = useSelector(state => state.date.messageText);    
 
     const dispatch = useDispatch();
 
     useEffect(() => {
         setTimeout(() => {
             dispatch(removeMessage());
-        }, 8000)
-    }, [])
+        }, 10000)
+    })
 
 
     return (
